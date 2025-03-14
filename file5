@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning and Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .box {
+            width: 40%;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+        }
+        .learning {
+            background: #3f51b5;
+        }
+        .development {
+            background: #1e88e5;
+        }
+        .together {
+            background: #ffb300;
+            width: 60%;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 10px;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Learning and Development</div>
+        <div class="section">
+            <div class="box learning">
+                <h2>LEARNING</h2>
+                <p>Acquiring new knowledge, skills, or behaviors through training, experience, and other growth opportunities.</p>
+            </div>
+            <div class="box development">
+                <h2>DEVELOPMENT</h2>
+                <p>An ongoing, long-term process of enhancing professional capabilities and career progression.</p>
+            </div>
+        </div>
+        <div class="together">
+            <p>In an organizational context, Learning and Development encompasses initiatives designed to improve employee performance and drive business success through ongoing skill and capability building.</p>
+        </div>
+    </div>
+</body>
+</html>
