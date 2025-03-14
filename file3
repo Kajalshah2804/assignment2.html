@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metaverse Learning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .metaverse {
+            background-color: #d0e8f2;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .tech-infra {
+            background-color: #f9e79f;
+            padding: 15px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .box {
+            background-color: #7fb3d5;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px;
+            width: 150px;
+            text-align: center;
+            color: white;
+        }
+        .infra-box {
+            background-color: #f4d03f;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px;
+            width: 180px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h2>The Real World</h2>
+            <p>👤 Learner + 🥽/👓 Wearable Devices → Enter → 🏃‍♂️ Avatar</p>
+        </div>
+        <div class="section metaverse">
+            <h2>The Metaverse</h2>
+            <div class="box">Intelligent NPCs</div>
+            <div class="box">Learning Logging</div>
+            <div class="box">Learning Scene</div>
+            <div class="box">Learning Analysis</div>
+            <div class="box">Learning Resource</div>
+            <div class="box">Learning Authentication</div>
+        </div>
+        <div class="section">
+            <h3>Support</h3>
+        </div>
+        <div class="section tech-infra">
+            <div class="infra-box">Communication & Networks</div>
+            <div class="infra-box">Computing Technologies</div>
+            <div class="infra-box">Analytical Technologies</div>
+            <div class="infra-box">Modeling & Rendering Technologies</div>
+            <div class="infra-box">Interaction Technologies</div>
+            <div class="infra-box">Authentication Technologies</div>
+        </div>
+    </div>
+</body>
+</html>
