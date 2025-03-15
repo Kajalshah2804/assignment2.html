@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #a3d3e7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #a3d3e7;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            width: 300px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .input-container {
+            margin: 10px 0;
+            text-align: left;
+        }
+
+        label {
+            font-size: 14px;
+            color: black; /* Changed text color to black */
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-bottom: 2px solid black; /* Changed border color to black */
+            background: transparent;
+            outline: none;
+            color: black; /* Changed text color to black */
+            font-size: 16px;
+        }
+
+        .login-btn {
+            margin-top: 20px;
+            padding: 10px;
+            width: 100%;
+            background-color: #4b91b3;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background-color: #3b7d99;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>SIGN IN</h2>
+        <div class="input-container">
+            <label for="username">User Name</label>
+            <input type="text" id="username" placeholder="Enter your username">
+        </div>
+        <div class="input-container">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <button class="login-btn">Login</button>
+    </div>
+
+</body>
+</html>
